@@ -3,13 +3,17 @@
 using namespace std;
 
 int main() {
-    unsigned int base;
-    unsigned int altura;
+    float base;
+    float altura;
 
     cin >> base;
     cin >> altura;
 
-    cout << (base * altura)/2 << endl;
+    float area;
+
+    area = (base*altura)/2;
+
+    cout << area << endl;
 
 
     return 0;
